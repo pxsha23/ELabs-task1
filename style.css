@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: black;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: red;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: red;
+}
+
+.hero {
+  background: url('porsche1.jpg') center/cover no-repeat;
+  text-align: center;
+  padding: 6rem 2rem;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+  position: relative;
+  max-width: 700px;
+  margin: auto;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.cta-button:hover {
+  background-color: darkred;
+}
+
+footer {
+  background-color: #222;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+  color: #aaa;
+}
+
+.social-links a {
+  margin: 0 0.5rem;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
