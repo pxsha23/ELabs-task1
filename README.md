@@ -3,3 +3,4 @@ It showcases a minimalist design inspired by modern automotive websites, emphasi
 The project was built as a practice exercise, with references to earlier front-end projects.
 It includes a hero section, navigation bar, and footer.
 ![Screenshot (139)](https://github.com/user-attachments/assets/4c07d7f3-f614-4713-b31f-ff3f6d8a41c2)
+![Screenshot (163)](https://github.com/user-attachments/assets/0f5ffb8f-2448-40b4-b8fb-f5de2c0c3aec)
